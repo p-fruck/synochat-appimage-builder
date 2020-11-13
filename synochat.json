@@ -1,0 +1,48 @@
+{
+    "buildinfo": [
+    {
+        "prerun": [
+            "curl -sL https://global.download.synology.com/download/Tools/ChatClient/1.1.1-57/Ubuntu/x86_64/Chat_1.1.1-57_amd64.deb -o ~/.cache/deb2appimage/debs/synochat-linux.deb"
+        ],
+        "name": "synochat",
+        "version": "linux",
+        "deps": "scrot,libgconf-2-4,libappindicator1,libpangocairo-1.0-0,libpango-1.0-0,libpangoft2-1.0-0",
+        "repoarch": "amd64",
+        "distrorepo": "Debian",
+        "repoversion": "buster-backports,buster",
+        "binarypath": "/opt/Synology Chat/synochat",
+        "desktoppath": "/usr/share/applications/synochat.desktop",
+        "iconpath": "/usr/share/icons/hicolor/256x256/apps/synochat.png",
+        "usewrapper": "false",
+        "postrun": [
+            null
+        ]
+    }
+    ],
+    "apprunconf": [
+    {
+        "setpath": "true",
+        "setlibpath": "true",
+        "setpythonpath": "false",
+        "setpythonhome": "false",
+        "setpythondontwritebytecode": "false",
+        "setxdgdatadirs": "false",
+        "setperllib": "false",
+        "setgsettingsschemadir": "false",
+        "setqtpluginpath": "false",
+        "exec": "/opt/Synology Chat/synochat"
+    }
+    ],
+    "authors": [
+    {
+        "type": "Author",
+        "author": "Synology",
+        "url": "https://synology.com"
+    },
+    {
+        "type": "AppImage Maintainer",
+        "author": "p-fruck",
+        "url": "https://github.com/p-fruck"
+    }
+    ]
+}
