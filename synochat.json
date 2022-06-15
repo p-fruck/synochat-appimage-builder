@@ -2,14 +2,14 @@
     "buildinfo": [
     {
         "prerun": [
-            "curl -sL https://global.download.synology.com/download/Tools/ChatClient/1.1.1-57/Ubuntu/x86_64/Chat_1.1.1-57_amd64.deb -o ~/.cache/deb2appimage/debs/synochat-linux.deb"
+            "curl -sL https://global.download.synology.com/download/Utility/ChatClient/1.2.1-0207/Ubuntu/x86_64/Synology%20Chat%20Client-1.2.1-0207.deb -o ~/.cache/deb2appimage/debs/synochat-linux.deb"
         ],
         "name": "synochat",
         "version": "linux",
-        "deps": "scrot,libgconf-2-4,libappindicator1,libpangocairo-1.0-0,libpango-1.0-0,libpangoft2-1.0-0",
+        "deps": "scrot,libgconf-2-4,libappindicator1,libpangocairo-1.0-0,libpango-1.0-0,libpangoft2-1.0-0,libgtk-3-0",
         "repoarch": "amd64",
         "distrorepo": "Debian",
-        "repoversion": "buster-backports,buster",
+        "repoversion": "bullseye,buster",
         "binarypath": "/opt/Synology Chat/synochat",
         "desktoppath": "/usr/share/applications/synochat.desktop",
         "iconpath": "/usr/share/icons/hicolor/256x256/apps/synochat.png",
