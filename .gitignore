@@ -1,0 +1,11 @@
+/deb2appimage*.AppImage
+
+# IDE configurations
+.idea
+.vscode/
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+nbproject/
